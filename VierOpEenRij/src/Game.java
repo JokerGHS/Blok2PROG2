@@ -26,7 +26,6 @@ public class Game {
 	}
 	
 	
-	
 	//View
 	public void drawSetup() {
 	
