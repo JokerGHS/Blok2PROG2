@@ -5,6 +5,8 @@ public class Game {
 
 	private Player[] players;
 	private Board board;
+	private int currentmove;
+	
 	Scanner read = new  Scanner(System.in);
 	
 	public Game () {
@@ -16,12 +18,13 @@ public class Game {
 	//Data
 	public void start(int aantal) {
 		
-		//Setting up the players 
-		players = new Player[aantal];
-		for(int i = 0; i < aantal; i++) {
+//		if (aantal >= 2) {
+			//Setting up the players 
+			players = new Player[aantal];
+			for(int i = 0; i < aantal; i++) {
 			players[i] = new Player();
-		}
-		
+			}
+//		}		
 		
 	}
 	
@@ -35,8 +38,5 @@ public class Game {
 			String readName = read.nextLine();
 			players[i].setName(readName);
 		}
-		
-	}
-	
-	
+}
 }
