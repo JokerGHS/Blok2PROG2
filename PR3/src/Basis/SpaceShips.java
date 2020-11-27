@@ -11,7 +11,7 @@ public class SpaceShips {
 	}
 	
 	public String toString() {
-		String info = "Name: " + name + "/n" + "Distanciation: " + distanciation;
+		String info = "Name: " + name + "\n" + "Distanciation: " + distanciation + "\n";
 		
 		return info;
 	}
