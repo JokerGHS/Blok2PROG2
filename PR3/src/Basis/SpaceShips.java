@@ -10,7 +10,12 @@ public class SpaceShips {
 		this.distanciation = distanciation;
 	}
 	
-	public String toString() {
+//	public void printInfo() {
+//		System.out.println("Name: " + name);
+//		System.out.println("Distanciation: " + distanciation);
+//	}
+//	
+	public String getInfo() {
 		String info = "Name: " + name + "\n" + "Distanciation: " + distanciation + "\n";
 		
 		return info;

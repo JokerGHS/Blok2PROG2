@@ -21,7 +21,7 @@ public class SpaceAgency {
 	
 	public void showInfo () {
 		for(SpaceShips s : ships) {
-			System.out.println(s);
+			System.out.println(s.getInfo());
 		}
 	}
 
