@@ -1,4 +1,4 @@
-package Basis;
+package Simple;
 
 public class FoundIntNumber {
 
@@ -7,7 +7,8 @@ public class FoundIntNumber {
 	private int nrCounted;
 	
 	public FoundIntNumber(int newValue) {
-		
+		this.value = newValue;
+		nrCounted = 1;
 	}
 	
 	public int getValue() {	
@@ -19,6 +20,6 @@ public class FoundIntNumber {
 	}
 	
 	public void increaseNrCounted() {
-		
+		this.nrCounted++;
 	}
 }

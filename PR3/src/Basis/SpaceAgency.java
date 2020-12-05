@@ -23,6 +23,7 @@ public class SpaceAgency {
 		for(SpaceShips s : ships) {
 			System.out.println(s.getInfo());
 		}
+		System.out.println(ships.size());
 	}
 
 }
