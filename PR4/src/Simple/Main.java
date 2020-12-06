@@ -10,8 +10,11 @@ public class Main {
 		ArrayList<FoundIntNumber> numberOccurrences = new ArrayList<FoundIntNumber>();
 		
 		for(int i = 0; i < numberCollection.length; i++) {
+			
 			int currentNumber = numberCollection[i];
+			
 			boolean found = false;
+			
 			for(FoundIntNumber fin : numberOccurrences){
 				if (fin.getValue() == currentNumber)
 				{

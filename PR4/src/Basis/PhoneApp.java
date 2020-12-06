@@ -23,5 +23,7 @@ public class PhoneApp {
 	public void updateApp(double newVersion){
 		this.version = newVersion;
 	}
-	
+	public double getVersion() {
+		return version;
+	}
 }
