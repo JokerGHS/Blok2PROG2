@@ -6,10 +6,10 @@ public class Square {
 	// x means black
 	// o means white
 	
-	private char status = '.';
+	private char status = '?';
 	
-	Square(){
-		setStatus('.');
+	public Square(char s){
+		setStatus(s);
 	}
 
 	public char getStatus() {
